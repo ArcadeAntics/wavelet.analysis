@@ -1,0 +1,36 @@
+
+
+export(DOG, Gabor, Paul, setWaveletSubClass, WaveletCovariance,
+    WaveletTransform)
+
+
+importFrom(graphics, plot)
+importFrom(stats, as.ts, deltat, frequency, time)
+
+
+S3method(all.equal, Wavelet)
+S3method(as.function, Wavelet)
+S3method(as.numeric_or_complex, character)
+S3method(as.numeric_or_complex, complex)
+S3method(as.numeric_or_complex, default)
+S3method(as.numeric_or_complex, ts)
+S3method(as.ts, WaveletTransform)
+S3method(deltat, WaveletCovariance)
+S3method(deltat, WaveletTransform)
+S3method(frequency, WaveletCovariance)
+S3method(frequency, WaveletTransform)
+S3method(plot, FourierTransform)
+S3method(plot, Wavelet)
+S3method(plot, WaveletCovariance)
+S3method(plot, WaveletTransform)
+S3method(print, CompatibleWaveletTransforms)
+S3method(print, DOG)
+S3method(print, Gabor)
+S3method(print, Paul)
+S3method(print, WaveletCovariance)
+S3method(print, WaveletTransform)
+S3method(scale, WaveletCovariance)
+S3method(scale, WaveletTransform)
+S3method(time, WaveletCovariance)
+S3method(time, WaveletTransform)
+S3method("[", CompatibleWaveletTransforms)
